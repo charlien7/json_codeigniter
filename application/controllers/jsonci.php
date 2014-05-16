@@ -11,7 +11,7 @@ Class Jsonci extends CI_CONTROLLER
 	public function index()
 	{
 		$this->load->model('jsonci_model');
-	    $some_data = $this->jsonci_model->provincias();
+	    $some_data = $this->jsonci_model->usuarios();
 
 	    $data = array (
 	        'data' => $some_data

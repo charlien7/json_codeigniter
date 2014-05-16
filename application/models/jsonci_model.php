@@ -9,10 +9,10 @@ Class Jsonci_model extends CI_MODEL
 
 	}
 
-	public function provincias()
+	public function usuarios()
 	{
 
-		return $this->db->get('provincia')->result();
+		return $this->db->get('usuarios')->result();
 
 	}
 
