@@ -28,7 +28,21 @@
 	</div>
 	<div class="row">
 		<div class="columns">
-			<h1>Foundation, baby!</h1>
+			<h1>Usuarios</h1>
+			<table id="users">
+					<thead>
+						<tr>
+							<th>Nombre</th>
+							<th>Email</th>
+							<th>Password</th>
+						</tr>
+					</thead>
+					<tbody id="users-body">
+						
+					</tbody>
+				</table>	
+
+
 		</div>
 	</div>
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
