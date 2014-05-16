@@ -12,17 +12,13 @@ Class Jsonci extends CI_CONTROLLER
 	{
 		$this->load->model('jsonci_model');
 	    $some_data = $this->jsonci_model->provincias();
-	    $some_data = json_encode($some_data);
-
-	    echo '<pre>'. print_r($some_data, 1).'</pre>'; exit();
-
 
 	    $data = array (
-	            'sodata' => $some_data
+	        'data' => $some_data
 	    );
 
 	    
-	    $this->load->view('json_view', $data);
+	    $this->load->view('json_result_view', $data);
 
 	}
 }
