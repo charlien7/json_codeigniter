@@ -5,6 +5,7 @@
 	<title>Listar</title>
 	<link rel="stylesheet" href="<?php asset_url(); ?>css/vendor/normalize.css">
 	<link rel="stylesheet" href="<?php asset_url(); ?>css/vendor/foundation.min.css">
+	<link rel="stylesheet" href="<?php asset_url(); ?>css/main.css">
 	<script src="<?php asset_url(); ?>js/vendor/modernizr.js"></script>
 </head>
 <body>
@@ -29,7 +30,7 @@
 	<div class="row">
 		<div class="columns">
 			<h1>Usuarios</h1>
-			<table id="users">
+			<table id="users" class="full-width">
 					<thead>
 						<tr>
 							<th>Nombre</th>
